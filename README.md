@@ -14,5 +14,6 @@ import Test.Test;<br>
 2.BufferedReaderをテストから本番に切り替える必要がある.<br>
 ※コメントアウトだけで良い<br>
 
-
-
+<br>
+<br>
+※実際に解答載せるのは規約違反ですわよ
