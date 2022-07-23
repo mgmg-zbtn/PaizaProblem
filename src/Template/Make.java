@@ -14,6 +14,7 @@ public class Make {
 		String problem = "P991";
 		
 		File dir = new File("src\\" + problem.charAt(0) + "000\\" + problem + "\\testcase");
+		if (dir.exists()) return;
 		dir.mkdirs();
 		
 		String[] list = {
