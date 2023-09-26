@@ -21,6 +21,9 @@
 問題用の子ディレクトリが2つ以上ないと  
 EclipseのProjectExplorerでは表示が省略されるが生成は問題ないです  
 
+問題番号などの抽出にjericho-html-3.4を使っているので別途用意が必要  
+[jericho](http://jericho.htmlparser.net/docs/index.html)  
+
 ---
 
 ## 提出の際の注意
