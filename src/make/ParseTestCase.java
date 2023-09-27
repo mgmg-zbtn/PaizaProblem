@@ -14,7 +14,6 @@ import net.htmlparser.jericho.Source;
 
 /**
  * <code></code>
- * 
  */
 public class ParseTestCase {
 

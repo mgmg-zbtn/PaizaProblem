@@ -11,7 +11,6 @@ import java.nio.file.StandardOpenOption;
 /**
  * 
  * 
- * 
  * @author mgmg-zbtn
  */
 public class Make {
@@ -32,14 +31,17 @@ public class Make {
 		// 
 		// case[k].txt
 		//  ans[k].txt
+		//  log[k].txt
 		for (int i = 0, k = 1; i < ptc.testCaseList.size() - 1; i += 2, k++) {
 			File caseFile = new File(dir.getAbsolutePath() + "\\" + "case" + k + ".txt");
-			System.out.println(caseFile.toString());
 			caseFile.createNewFile();
 
 			File ansFile = new File(dir.getAbsolutePath() + "\\" + "ans" + k + ".txt");
 			ansFile.createNewFile();
 			
+			File logFile = new File(dir.getAbsolutePath() + "\\" + "log" + k + ".txt");
+			logFile.createNewFile();
+
 			Files.writeString(
 					Paths.get(dir.getAbsolutePath(),
 					"case" + k + ".txt"),
