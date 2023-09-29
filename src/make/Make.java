@@ -9,7 +9,10 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
 /**
- * 
+ * Exportせずにプロジェクト内で直接実行する
+ * PHPの方と合わせているが出力はないので形だけ
+ * 今後実装するかは未定
+ * ※PHPと違ってコンソール実行しないため
  * 
  * @author mgmg-zbtn
  */
