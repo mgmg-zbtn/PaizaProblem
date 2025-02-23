@@ -1,3 +1,4 @@
-/bin/
-/src/[A-Y][0-9][0-9][0-9]/
-/download/
+bin/
+src/[A-Y][0-9][0-9][0-9]/
+download/*
+!download/.keep
