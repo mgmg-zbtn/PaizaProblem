@@ -2,7 +2,7 @@ package cheetsheet;
 
 import java.util.PriorityQueue;
 
-public class PriorityQueueEx {
+public class PriorityQueue_ {
 
 	public static void main(String[] args) {
         // PriorityQueue の宣言（Integer型）

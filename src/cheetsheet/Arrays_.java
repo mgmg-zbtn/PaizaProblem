@@ -2,7 +2,7 @@ package cheetsheet;
 
 import java.util.Arrays;
 
-public class ArraysEx {
+public class Arrays_ {
     public static void main(String[] args) {
     	
         // 配列の宣言

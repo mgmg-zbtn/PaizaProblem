@@ -2,7 +2,7 @@ package cheetsheet;
 
 import java.util.HashMap;
 
-public class HashMapEx {
+public class HashMap_ {
     public static void main(String[] args) {
     	// HashMap の宣言（キー: String, 値: Integer）
     	HashMap<String, Integer> map = new HashMap<>();

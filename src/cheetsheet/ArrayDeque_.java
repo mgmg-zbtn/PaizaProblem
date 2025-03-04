@@ -2,7 +2,7 @@ package cheetsheet;
 
 import java.util.ArrayDeque;
 
-public class ArrayDequeEx {
+public class ArrayDeque_ {
 
 	public static void main(String[] args) {
         // ArrayDeque の宣言（Integer型）
@@ -16,6 +16,5 @@ public class ArrayDequeEx {
         int first = deque.poll();
         System.out.println("Removed element: " + first);
         System.out.println("Deque after removal: " + deque);
-        
 	}
 }

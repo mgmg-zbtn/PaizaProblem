@@ -2,7 +2,7 @@ package cheetsheet;
 
 import java.util.TreeMap;
 
-public class TreeMapEx {
+public class TreeMap_ {
 
 	public static void main(String[] args) {
 		
@@ -14,8 +14,6 @@ public class TreeMapEx {
 		// HashMapの方が平均的には高速
 
 		// nullキーを許容しません
-		// 
-		// 
 		
     	// TreeMap の宣言（キー: Integer, 値: String）
     	TreeMap<Integer, String> map = new TreeMap<>();

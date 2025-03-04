@@ -2,7 +2,7 @@ package cheetsheet;
 
 import java.util.HashSet;
 
-public class HashSetEx {
+public class HashSet_ {
     public static void main(String[] args) {
     	
     	// 重複しない要素を管理するためのコレクション

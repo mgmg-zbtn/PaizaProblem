@@ -3,7 +3,7 @@ package cheetsheet;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class TreeSetEx {
+public class TreeSet_ {
 
 	public static void main(String[] args) {
 		
