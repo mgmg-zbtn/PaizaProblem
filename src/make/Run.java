@@ -16,12 +16,14 @@ public class Run {
 		boolean WRITE_TO_FILE    = true;
 		boolean IS_COMPARE       = true;
 		
-		String caseNum = "1";
-		String problem = "C999";
+		// Test.stream の切り替え（コメントアウト）忘れずに
+		// ..new InputStreamReader(System.in));
+		String caseNum = "2";
+		String problem = "B140";
 
 		// src/N000/N999/testcase/
 		String testcase = "src/"+ problem.charAt(0) +"000/"+ problem +"/testcase/";
-		// "N000.C999.Main"
+		// "N000.N999.Main"
 		String classPath = problem.charAt(0) + "000." + problem;
 		
         try {
