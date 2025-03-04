@@ -9,10 +9,21 @@ import java.io.InputStreamReader;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(Test.stream("src\\N000\\N001\\testcase\\case1.txt")));
+		BufferedReader br = new BufferedReader(new InputStreamReader(Test.stream("TESTCASE")));
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		// br.readLine();
 
+		String str = br.readLine();
+
+		String[] lines = br.readLine().split(" ");
+		int N = Integer.parseInt(lines[0]);
+		int K = Integer.parseInt(lines[1]);
+		int X = Integer.parseInt(lines[2]);
 		
+		
+		for (int n = 0; n < N; n++) {
+			String[] temp = br.readLine().split(" ");
+			int a = Integer.parseInt(temp[0]);
+			int b = Integer.parseInt(temp[1]);
+		}
 	}
 }
